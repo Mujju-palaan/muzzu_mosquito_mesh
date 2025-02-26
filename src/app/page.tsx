@@ -1,12 +1,10 @@
-// import Image from "next/image";
+import Home from "./home/page"
 
-
-export default function Home() {
+const page = () => {
   return (
     <>
-    mujju
-    
-    
+      <Home></Home>
     </>
-  );
+  )
 }
+export default page
