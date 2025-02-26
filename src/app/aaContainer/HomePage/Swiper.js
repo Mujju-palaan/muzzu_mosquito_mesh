@@ -81,7 +81,7 @@ const SwiperPlan = () => {
         <SwiperSlide style={{paddingBottom:'1rem'}}>
             <HomePlansCard 
                 title="Blinds"
-                Images="/blinds1.webp"
+                Images="./blinds1.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -89,7 +89,7 @@ const SwiperPlan = () => {
         <SwiperSlide>
             <HomePlansCard 
                 title="Cloth Hanger"
-                Images="/cloth_hanger1.webp"
+                Images="./cloth_hanger1.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -97,7 +97,7 @@ const SwiperPlan = () => {
         <SwiperSlide>
             <HomePlansCard 
                 title="Grill Door Mesh"
-                Images="/grill_door_mesh1.webp"
+                Images="./grill_door_mesh1.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -105,7 +105,7 @@ const SwiperPlan = () => {
         <SwiperSlide>
             <HomePlansCard 
                 title="Invisible Grill"
-                Images="/invisible_grill3.jpg"
+                Images="./invisible_grill3.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -113,7 +113,7 @@ const SwiperPlan = () => {
         <SwiperSlide>
             <HomePlansCard 
                 title="Openable Door"
-                Images="/openable_door1.webp"
+                Images="./openable_door1.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -121,7 +121,7 @@ const SwiperPlan = () => {
         <SwiperSlide>
             <HomePlansCard 
                 title="Openable Window"
-                Images="/openable_window5.webp"
+                Images="./openable_window5.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -129,7 +129,7 @@ const SwiperPlan = () => {
         <SwiperSlide>
             <HomePlansCard 
                 title="Pleated Sliding Door"
-                Images="/pleated_sliding_doors1.jpg"
+                Images="./pleated_sliding_doors1.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -137,7 +137,7 @@ const SwiperPlan = () => {
         <SwiperSlide>
             <HomePlansCard 
                 title="Pleated Sliding Window"
-                Images="/pleated_sliding_window2.jpg"
+                Images="./pleated_sliding_window2.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -145,7 +145,7 @@ const SwiperPlan = () => {
         <SwiperSlide>
             <HomePlansCard 
                 title="Velcro Mosquito Net"
-                Images="/velcro_mosquito_net2.jpeg"
+                Images="./velcro_mosquito_net2.jpeg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>  

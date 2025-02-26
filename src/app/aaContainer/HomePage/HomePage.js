@@ -22,7 +22,7 @@ const HomePage = () => {
           }}>
         <div style={{width:'50%'}}>
           <Image style={{justifySelf:'center'}}
-            src='/SMAN.PNG'
+            src='./SMAN.PNG'
             width={500}
             height={500}
             alt="Picture of the author"
