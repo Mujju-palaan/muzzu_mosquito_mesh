@@ -1,15 +1,15 @@
 "use client"
-import { Avatar } from "@nextui-org/avatar";
-import {Dropdown,
-  DropdownItem,
-  DropdownMenu,
-  DropdownTrigger,
-    Navbar,
-    NavbarBrand,
-    NavbarContent,
-    NavbarItem,
-    Input, Image
-  } from "@nextui-org/react";
+// import { Avatar } from "@nextui-org/avatar";
+// import {Dropdown,
+//   DropdownItem,
+//   DropdownMenu,
+//   DropdownTrigger,
+//     Navbar,
+//     NavbarBrand,
+//     NavbarContent,
+//     NavbarItem,
+//     Input, Image
+//   } from "@nextui-org/react";
 import { useState } from "react";
 import Link from 'next/link'; 
 import "./NavBar.css";
