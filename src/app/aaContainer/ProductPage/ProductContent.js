@@ -5,7 +5,7 @@ import BlindsSwiper from './productswiper/BlindsSwiper'
 import ClothHangerSwiper from './productswiper/ClothHangerSwiper'
 import InvisibleGrillSwiper from './productswiper/InvisibleGrillSwiper'
 import Openable_Door_Swiper from './productswiper/Openable_Door_Swiper'
-import Openable_Window_Swiper from './productswiper/Openable_Door_Swiper'
+import Openable_Window_Swiper from './productswiper/Openable_Window_Swiper'
 import Pleated_Door_Swiper from './productswiper/Pleated_Door_Swiper'
 import Pleated_Window_Swiper from './productswiper/Pleated_Window_Swiper'
 import VelcroSwiper from './productswiper/VelcroSwiper'
@@ -175,7 +175,7 @@ const ProductContent = () => {
             <div style={{ display: "flex" }}>
               <div className={styles.circle}>7</div>{" "}
               <div className={styles.heading}>
-              OPENABLE DOORS AND WINDOWS::
+              OPENABLE DOORS :
               </div>
             </div>
           </h2>
@@ -198,13 +198,13 @@ const ProductContent = () => {
         </div>
 
 
-        {/* --------OPENABLE DOORS AND WINDOWS------- */}
+        {/* --------OPENABLE WINDOWS------- */}
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
               <div className={styles.circle}>8</div>{" "}
               <div className={styles.heading}>
-              OPENABLE DOORS AND WINDOWS::
+              OPENABLE WINDOWS:
               </div>
             </div>
           </h2>

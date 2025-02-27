@@ -9,7 +9,6 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
-import { delay } from "framer-motion";
 
 const UPVS_Door = () => {
   return (
@@ -80,7 +79,7 @@ const UPVS_Door = () => {
         <SwiperSlide style={{paddingBottom:'1rem'}}>
             <ProductSwiperCard 
                 title="Blinds"
-                Images="./blinds1.webp"
+                Images="./product_images/UPVC Doors/UPVC Doors1.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -88,7 +87,7 @@ const UPVS_Door = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Cloth Hanger"
-                Images="./cloth_hanger1.webp"
+                Images="./product_images/UPVC Doors/UPVC Doors2.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -96,7 +95,7 @@ const UPVS_Door = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Grill Door Mesh"
-                Images="./grill_door_mesh1.webp"
+                Images="./product_images/UPVC Doors/UPVC Doors3.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -104,7 +103,7 @@ const UPVS_Door = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Invisible Grill"
-                Images="./invisible_grill3.jpg"
+                Images="./product_images/UPVC Doors/UPVC Doors4.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -112,7 +111,7 @@ const UPVS_Door = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Openable Door"
-                Images="./openable_door1.webp"
+                Images="./product_images/UPVC Doors/UPVC Doors5.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -120,34 +119,12 @@ const UPVS_Door = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Openable Window"
-                Images="./openable_window5.webp"
+                Images="./product_images/UPVC Doors/UPVC Doors6.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Door"
-                Images="./pleated_sliding_doors1.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Window"
-                Images="./pleated_sliding_window2.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Velcro Mosquito Net"
-                Images="./velcro_mosquito_net2.jpeg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>  
+        
     </Swiper>
   )
 }

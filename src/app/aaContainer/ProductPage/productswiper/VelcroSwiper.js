@@ -79,7 +79,7 @@ const VelcroSwiper = () => {
         <SwiperSlide style={{paddingBottom:'1rem'}}>
             <ProductSwiperCard 
                 title="Blinds"
-                Images="./blinds1.webp"
+                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net1.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -87,7 +87,7 @@ const VelcroSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Cloth Hanger"
-                Images="./cloth_hanger1.webp"
+                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net2.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -95,7 +95,7 @@ const VelcroSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Grill Door Mesh"
-                Images="./grill_door_mesh1.webp"
+                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net3.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -103,7 +103,7 @@ const VelcroSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Invisible Grill"
-                Images="./invisible_grill3.jpg"
+                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net4.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -111,7 +111,7 @@ const VelcroSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Openable Door"
-                Images="./openable_door1.webp"
+                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net5.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -119,7 +119,7 @@ const VelcroSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Openable Window"
-                Images="./openable_window5.webp"
+                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net6.jpeg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -127,7 +127,7 @@ const VelcroSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Pleated Sliding Door"
-                Images="./pleated_sliding_doors1.jpg"
+                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net7.jpeg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -135,7 +135,7 @@ const VelcroSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Pleated Sliding Window"
-                Images="./pleated_sliding_window2.jpg"
+                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net8.jpeg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -143,7 +143,7 @@ const VelcroSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Velcro Mosquito Net"
-                Images="./velcro_mosquito_net2.jpeg"
+                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net9.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>  

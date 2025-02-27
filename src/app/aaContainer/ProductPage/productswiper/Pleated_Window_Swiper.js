@@ -80,7 +80,7 @@ const Pleated_Window_Swiper = () => {
         <SwiperSlide style={{paddingBottom:'1rem'}}>
             <ProductSwiperCard 
                 title="Blinds"
-                Images="./blinds1.webp"
+                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows1.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -88,7 +88,7 @@ const Pleated_Window_Swiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Cloth Hanger"
-                Images="./cloth_hanger1.webp"
+                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows2.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -96,7 +96,7 @@ const Pleated_Window_Swiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Grill Door Mesh"
-                Images="./grill_door_mesh1.webp"
+                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows3.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -104,7 +104,7 @@ const Pleated_Window_Swiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Invisible Grill"
-                Images="./invisible_grill3.jpg"
+                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows4.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -112,7 +112,7 @@ const Pleated_Window_Swiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Openable Door"
-                Images="./openable_door1.webp"
+                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows5.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -120,7 +120,7 @@ const Pleated_Window_Swiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Openable Window"
-                Images="./openable_window5.webp"
+                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows6.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -128,7 +128,7 @@ const Pleated_Window_Swiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Pleated Sliding Door"
-                Images="./pleated_sliding_doors1.jpg"
+                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows7.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -136,7 +136,7 @@ const Pleated_Window_Swiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Pleated Sliding Window"
-                Images="./pleated_sliding_window2.jpg"
+                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows8.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -144,7 +144,7 @@ const Pleated_Window_Swiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Velcro Mosquito Net"
-                Images="./velcro_mosquito_net2.jpeg"
+                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows9.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>  

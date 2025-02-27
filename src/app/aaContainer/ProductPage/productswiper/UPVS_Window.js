@@ -80,7 +80,7 @@ const UPVS_Window = () => {
         <SwiperSlide style={{paddingBottom:'1rem'}}>
             <ProductSwiperCard 
                 title="Blinds"
-                Images="./blinds1.webp"
+                Images="./product_images/UPVC Windows/UPVC Windows1.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -88,7 +88,7 @@ const UPVS_Window = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Cloth Hanger"
-                Images="./cloth_hanger1.webp"
+                Images="./product_images/UPVC Windows/UPVC Windows2.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -96,7 +96,7 @@ const UPVS_Window = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Grill Door Mesh"
-                Images="./grill_door_mesh1.webp"
+                Images="./product_images/UPVC Windows/UPVC Windows3.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -104,7 +104,7 @@ const UPVS_Window = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Invisible Grill"
-                Images="./invisible_grill3.jpg"
+                Images="./product_images/UPVC Windows/UPVC Windows4.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -112,42 +112,12 @@ const UPVS_Window = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Openable Door"
-                Images="./openable_door1.webp"
+                Images="./product_images/UPVC Windows/UPVC Windows5.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Window"
-                Images="./openable_window5.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Door"
-                Images="./pleated_sliding_doors1.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Window"
-                Images="./pleated_sliding_window2.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Velcro Mosquito Net"
-                Images="./velcro_mosquito_net2.jpeg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>  
+        
     </Swiper>
   )
 }

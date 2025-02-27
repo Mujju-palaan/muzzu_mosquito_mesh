@@ -9,7 +9,6 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
-import { delay } from "framer-motion";
 
 const ClothHangerSwiper = () => {
   return (
@@ -80,7 +79,7 @@ const ClothHangerSwiper = () => {
         <SwiperSlide style={{paddingBottom:'1rem'}}>
             <ProductSwiperCard 
                 title="Blinds"
-                Images="./blinds1.webp"
+                Images="./product_images/Cloth Hanger/Cloth Hanger1.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -88,7 +87,7 @@ const ClothHangerSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Cloth Hanger"
-                Images="./cloth_hanger1.webp"
+                Images="./product_images/Cloth Hanger/Cloth Hanger2.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -96,7 +95,7 @@ const ClothHangerSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Grill Door Mesh"
-                Images="./grill_door_mesh1.webp"
+                Images="./product_images/Cloth Hanger/Cloth Hanger3.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -104,7 +103,7 @@ const ClothHangerSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Invisible Grill"
-                Images="./invisible_grill3.jpg"
+                Images="./product_images/Cloth Hanger/Cloth Hanger4.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -112,42 +111,43 @@ const ClothHangerSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Openable Door"
-                Images="./openable_door1.webp"
+                Images="./product_images/Cloth Hanger/Cloth Hanger5.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
             <ProductSwiperCard 
-                title="Openable Window"
-                Images="./openable_window5.webp"
+                title="Openable Door"
+                Images="./product_images/Cloth Hanger/Cloth Hanger6.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
             <ProductSwiperCard 
-                title="Pleated Sliding Door"
-                Images="./pleated_sliding_doors1.jpg"
+                title="Openable Door"
+                Images="./product_images/Cloth Hanger/Cloth Hanger7.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
             <ProductSwiperCard 
-                title="Pleated Sliding Window"
-                Images="./pleated_sliding_window2.jpg"
+                title="Openable Door"
+                Images="./product_images/Cloth Hanger/Cloth Hanger8.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
             <ProductSwiperCard 
-                title="Velcro Mosquito Net"
-                Images="./velcro_mosquito_net2.jpeg"
+                title="Openable Door"
+                Images="./product_images/Cloth Hanger/Cloth Hanger9.jpg"
                 // link="WeightLossPrograms"
             />
-        </SwiperSlide>  
+        </SwiperSlide>
+ 
     </Swiper>
   )
 }
