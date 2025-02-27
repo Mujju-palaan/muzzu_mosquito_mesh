@@ -1,5 +1,5 @@
 // 'use client'
-import React from 'react'
+import React from 'react' 
 import styles from './HomePlansCard.module.css'
 import Image from 'next/image'
 import { AiOutlineDoubleRight } from "react-icons/ai";

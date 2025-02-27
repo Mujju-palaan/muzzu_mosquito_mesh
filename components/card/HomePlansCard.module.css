@@ -25,7 +25,7 @@
   font-size: 2.4rem;
 }
 
-  @media screen and (max-width: 440px) {
+  @media screen and (max-width: 420px) {
     .img {
       object-fit: cover;
       height: 24rem;
