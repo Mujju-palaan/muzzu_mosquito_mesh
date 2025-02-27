@@ -142,8 +142,9 @@ const ContactForm = () => {
           </p>
         )}
 
-        <button type="submit" className={mulish.className}>
-          Send Message
+        <button type="submit" className={mulish.className} 
+            style={{backgroundColor:'#1f5156', padding:'0.5rem', borderRadius:'18px'}}>
+          <p style={{color:'white'}}>Send Message</p>
         </button>
       </div>
     </form>
