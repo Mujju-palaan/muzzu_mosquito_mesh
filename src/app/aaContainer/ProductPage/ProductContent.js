@@ -11,6 +11,8 @@ import Pleated_Window_Swiper from './productswiper/Pleated_Window_Swiper'
 import VelcroSwiper from './productswiper/VelcroSwiper'
 import UPVS_Door from "./productswiper/UPVS_Door";
 import UPVS_Window from './productswiper/UPVS_Window'
+import Grill_Door from './productswiper/Grilldoor'
+
 
 
 
@@ -113,11 +115,41 @@ const ProductContent = () => {
           </div>   
         </div>
 
-        {/* --------INVISIBLE GRILL------- */}
+
+        {/* --------Grill_Door------- */}
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
               <div className={styles.circle}>5</div>{" "}
+              <div className={styles.heading}>Grill Door:</div>
+            </div>
+          </h2>
+          <p className={styles.plpara}>
+            Why Choose Invisible Grills?
+
+            🔒 Maximum Safety, Minimum Visibility: Made from high-tensile steel cables, our grills offer superior strength and protection without obstructing your view.
+            🌄 Uninterrupted Views: Keep your vistas clear and your spaces open, whether it’s a stunning cityscape, a lush garden, or a serene balcony.
+            ✨ Sleek & Modern Design: Enhance the beauty of your home with a minimalist, almost invisible solution that blends seamlessly with your architecture.
+            🌧️ Weather-Resistant & Durable: Built to withstand harsh weather conditions, our grills are rust-proof and long-lasting, ensuring years of reliable performance.
+            🛠️ Customizable Solutions: Tailored to fit your windows, balconies, or terraces perfectly, providing a secure and stylish solution for every space.
+            Safety Meets Elegance
+            Invisible grills are more than just a security feature – they’re a lifestyle upgrade. Whether you’re safeguarding your children, pets, or simply enhancing your home’s aesthetic, our grills offer peace of mind without compromising on style.
+
+          </p>
+
+          <div style={{marginLeft:'2rem'}}>
+            <Grill_Door></Grill_Door>
+          </div>
+            
+        </div>
+
+        
+
+        {/* --------INVISIBLE GRILL------- */}
+        <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
+          <h2>
+            <div style={{ display: "flex" }}>
+              <div className={styles.circle}>6</div>{" "}
               <div className={styles.heading}>INVISIBLE GRILL:</div>
             </div>
           </h2>
@@ -144,7 +176,7 @@ const ProductContent = () => {
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
-              <div className={styles.circle}>6</div>{" "}
+              <div className={styles.circle}>7</div>{" "}
               <div className={styles.heading}>
               CLOTH HANGERS:
               </div>
@@ -173,7 +205,7 @@ const ProductContent = () => {
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
-              <div className={styles.circle}>7</div>{" "}
+              <div className={styles.circle}>8</div>{" "}
               <div className={styles.heading}>
               OPENABLE DOORS :
               </div>
@@ -202,7 +234,7 @@ const ProductContent = () => {
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
-              <div className={styles.circle}>8</div>{" "}
+              <div className={styles.circle}>9</div>{" "}
               <div className={styles.heading}>
               OPENABLE WINDOWS:
               </div>
@@ -230,7 +262,7 @@ const ProductContent = () => {
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
-              <div className={styles.circle}>9</div>{" "}
+              <div className={styles.circle}>10</div>{" "}
               <div className={styles.heading}>
               UPVS DOORS:
               </div>
@@ -257,7 +289,7 @@ const ProductContent = () => {
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
-              <div className={styles.circle}>10</div>{" "}
+              <div className={styles.circle}>11</div>{" "}
               <div className={styles.heading}>
               UPVS WINDOWS:
               </div>

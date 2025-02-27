@@ -96,7 +96,7 @@ const InvisibleGrillSwiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Grill Door Mesh"
-                Images="./product_images/Invisible Grill/Invisible Grill3.jpg"
+                Images="./product_images/Invisible Grill/Invisible Grill2.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>

@@ -8,11 +8,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
-import HomePlansCard from '../../../../components/card/HomePlansCard'
+import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
 import { delay } from "framer-motion";
 
-
-const SwiperPlan = () => {
+const Grill_Door = () => {
   return (
     <Swiper 
         // install Swiper modules
@@ -79,95 +78,94 @@ const SwiperPlan = () => {
         >
       
         <SwiperSlide style={{paddingBottom:'1rem'}}>
-            <HomePlansCard 
+            <ProductSwiperCard 
                 title="Blinds"
-                Images="./product_images/Blinds/Blinds3.webp"
+                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh1.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
-            <HomePlansCard 
+            <ProductSwiperCard 
                 title="Cloth Hanger"
-                Images="./product_images/Cloth Hanger/Cloth Hanger1.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <HomePlansCard 
-                title="Grill Door Mesh"
                 Images="./product_images/Grill Door With Mesh/Grill Door With Mesh2.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
-            <HomePlansCard 
+            <ProductSwiperCard 
+                title="Grill Door Mesh"
+                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh3.jpg"
+                // link="WeightLossPrograms"
+            />
+        </SwiperSlide>
+
+        <SwiperSlide>
+            <ProductSwiperCard 
                 title="Invisible Grill"
-                Images="./product_images/Invisible Grill/Invisible Grill2.webp"
+                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh4.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
-            <HomePlansCard 
+            <ProductSwiperCard 
                 title="Openable Door"
-                Images="./product_images/Openable Doors/Openable Doors1.webp"
+                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh5.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
-            <HomePlansCard 
+            <ProductSwiperCard 
                 title="Openable Window"
-                Images="./product_images/Openable Windows/Openable Windows10.webp"
+                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh6.webp"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
-            <HomePlansCard 
+            <ProductSwiperCard 
                 title="Pleated Sliding Door"
-                Images="./product_images/Pleated Sliding Doors/Pleated Sliding Doors6.jpeg"
+                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh7.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
-            <HomePlansCard 
+            <ProductSwiperCard 
                 title="Pleated Sliding Window"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows2.jpg"
+                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh8.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
 
         <SwiperSlide>
-            <HomePlansCard 
-                title="UPVS Door"
-                Images="./product_images/UPVC Doors/UPVC Doors3.jpg"
+            <ProductSwiperCard 
+                title="Pleated Sliding Window"
+                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh9.jpg"
                 // link="WeightLossPrograms"
             />
-        </SwiperSlide> 
+        </SwiperSlide>
 
         <SwiperSlide>
-            <HomePlansCard 
-                title="UPVS Window"
-                Images="./product_images/UPVC Windows/UPVC Windows5.jpg"
-
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide> 
-
-        <SwiperSlide>
-            <HomePlansCard 
+            <ProductSwiperCard 
                 title="Velcro Mosquito Net"
-                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net6.jpeg"
+                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh10.webp"
                 // link="WeightLossPrograms"
             />
-        </SwiperSlide>  
-    </Swiper>
-  );
-};
+        </SwiperSlide> 
 
-export default SwiperPlan
+        {/* <SwiperSlide>
+            <ProductSwiperCard 
+                title="Velcro Mosquito Net"
+                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh11.webp"
+                // link="WeightLossPrograms"
+            />
+        </SwiperSlide>   */}
+    </Swiper>
+  )
+}
+
+export default Grill_Door
