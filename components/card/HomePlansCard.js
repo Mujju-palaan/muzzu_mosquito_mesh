@@ -16,12 +16,12 @@ const HomePlansCard = (props) => {
           src={props.Images}
           className={styles.img}
           alt="Image"
-        />
+        /> 
         {/* <img
         src={props.Images}
         className={styles.img}
         /> */}
-        <h2
+        <h2 className={styles.card_h2}
           style={{
             textAlign: "center",
             // padding: "1.5rem 0 0 0",
@@ -29,7 +29,6 @@ const HomePlansCard = (props) => {
             marginBottom: "0rem",
             fontFamily:'Pangeatext,sans-serif',
             color:'#50D5B1',
-            fontSize:'2.2rem'
           }}
         >
           {props.title}

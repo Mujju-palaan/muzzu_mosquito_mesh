@@ -1,35 +1,35 @@
 import React from 'react'
 import Image from 'next/image'
 import SwiperPlan from './Swiper'
+import styles from './HomePage.module.css'
 
 const HomePage = () => {
 
   return (
     <div style={{fontFamily:'Gill Sans, sans-serif'}}>
       <div 
-        style={{height:'500',
-          backgroundImage: "url(" + "https://www.omdecor.in/wp-content/uploads/2023/06/Sliding-Mosqiute-Net-banner.jpg" + ")",
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          objectFit:'container'
-        }}
+        // style={{height:'500',
+        //   backgroundImage: "url(" + "https://www.omdecor.in/wp-content/uploads/2023/06/Sliding-Mosqiute-Net-banner.jpg" + ")",
+        //   backgroundPosition: 'center',
+        //   backgroundSize: 'cover',
+        //   backgroundRepeat: 'no-repeat',
+        //   objectFit:'container'
+        // }}
         >
       </div>
       {/* <div className="h-20 bg-gradient-to-r from-cyan-500 to-blue-500"></div> */}
-      <div style={{display: 'flex', flexWrap:'nowrap', alignContent:'center', justifyContent:'center', 
-        alignItems:'center'
-          }}>
-        <div style={{width:'50%'}}>
-          <Image style={{justifySelf:'center'}}
+      <div className={styles.sman_container}>
+        <div className={styles.img_box}>
+          <Image
             src='./home/Sman.png'
             width={500}
             height={500}
             alt="Picture of the author"
           />
         </div>
-        <div className='px-8' style={{width:'50%'}}>
-          <h1 style={{fontSize:'3rem', color:'#27772e', lineHeight:'1', position:'relative'}}>
+        <div className={styles.content_box}>
+          <h1 className={styles.content_box_h1}
+            style={{color:'#27772e', lineHeight:'1', position:'relative'}}>
             Welcome To Mr. Mosquito
           </h1>
           <h4 className='p-4' style={{fontSize:'1.5rem', color:'black', lineHeight:'1'}}
@@ -41,11 +41,10 @@ const HomePage = () => {
           incorporating innovation in our products.
           </p>
         </div>
-
       </div>
 
        {/* -------swiper--------- */}
-      <div style={{textAlign:'center',justifyContent:'center',paddingLeft:'1rem'}}>
+      <div style={{textAlign:'center',justifyContent:'center',padding:'1.5rem'}}>
           <SwiperPlan></SwiperPlan>
       </div>
 
