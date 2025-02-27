@@ -1,6 +1,15 @@
 "use client";
 import React from "react";
 import styles from "./ProductContent.module.css";
+import BlindsSwiper from './productswiper/BlindsSwiper'
+import ClothHangerSwiper from './productswiper/ClothHangerSwiper'
+import InvisibleGrillSwiper from './productswiper/InvisibleGrillSwiper'
+import OpenableSwiper from './productswiper/OpenableSwiper'
+import PleatedSwiper from './productswiper/PleatedSwiper'
+import UPVS from './productswiper/UPVS'
+import VelcroSwiper from './productswiper/VelcroSwiper'
+
+
 
 const ProductContent = () => {
   return (
@@ -10,6 +19,7 @@ const ProductContent = () => {
           Mesh Products
         </h2>
 
+        {/* --------⁠Velcro Mosquito Net------- */}
         <div style={{ textAlign: "left", paddingBottom:'2rem' }}>
           <h2>
             <div style={{ display: "flex" }}>
@@ -29,8 +39,11 @@ const ProductContent = () => {
             [25/02/25, 10:18:40 PM] Muddasir Pro Player: ✅ Stylish & Minimalistic: Designed to blend seamlessly with your home decor, our Velcro nets add a touch of elegance while keeping your space safe.
 
           </p>
+          <VelcroSwiper></VelcroSwiper>
         </div>
+        
 
+        {/* --------Blinds------- */}
         <div style={{ textAlign: "left", paddingBottom:'2rem' }}>
           <h2>
             <span className={styles.circle}>2</span>{" "}
@@ -46,8 +59,10 @@ const ProductContent = () => {
             ✨ Custom Fit: Tailored to fit your windows or doors perfectly, ensuring no gaps for mosquitoes to sneak through.
 
           </p>
+          <BlindsSwiper></BlindsSwiper>
         </div>
 
+        {/* --------PLEATED SLIDING DOORS AND WINDOWS------- */}
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <span className={styles.circle}>3</span>{" "}
@@ -63,8 +78,10 @@ const ProductContent = () => {
             🌟 Customizable Fit: Tailored to your exact specifications, ensuring a perfect fit for your doors, windows, or even large openings like patios and balconies.
 
           </p>
+            <PleatedSwiper></PleatedSwiper>
         </div>
 
+        {/* --------INVISIBLE GRILL------- */}
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
@@ -84,8 +101,10 @@ const ProductContent = () => {
             Invisible grills are more than just a security feature – they’re a lifestyle upgrade. Whether you’re safeguarding your children, pets, or simply enhancing your home’s aesthetic, our grills offer peace of mind without compromising on style.
 
           </p>
+            <InvisibleGrillSwiper></InvisibleGrillSwiper>
         </div>
 
+        {/* --------CLOTH HANGERS------- */}
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
@@ -107,8 +126,10 @@ const ProductContent = () => {
             A well-organized closet starts with the right hangers. Whether you’re storing delicate silks, bulky coats, or everyday wear, our cloth hangers are designed to meet all your needs. Transform your closet into a tidy, stylish space that makes getting dressed a joy!
 
           </p>
+            <ClothHangerSwiper></ClothHangerSwiper>
         </div>
 
+        {/* --------OPENABLE DOORS AND WINDOWS------- */}
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
@@ -130,8 +151,10 @@ const ProductContent = () => {
 
             Openable doors and windows are more than just a practical addition – they’re a lifestyle upgrade. Whether it’s a folding door for your patio, a sliding window for your living room, or a casement window for your bedroom, our solutions are designed to enhance your home’s beauty and functionality.
           </p>
+            <OpenableSwiper></OpenableSwiper>
         </div>
 
+        {/* --------UPVS DOORS AND WINDOWS------- */}
         <div style={{ textAlign: "left", paddingBottom:'2rem'  }}>
           <h2>
             <div style={{ display: "flex" }}>
@@ -152,6 +175,7 @@ const ProductContent = () => {
             The Perfect Blend of Safety and Style
             UPVC mosquito doors and windows are more than just a practical solution – they’re a lifestyle upgrade. Whether it’s for your home, office, or commercial space, our products provide the perfect balance of protection, comfort, and visual appeal.
           </p>
+            <UPVS></UPVS>
         </div>
 
         
