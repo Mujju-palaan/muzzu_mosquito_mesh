@@ -9,8 +9,9 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
+import { delay } from "framer-motion";
 
-const VelcroSwiper = () => {
+const Openable_Window_Swiper = () => {
   return (
     <Swiper 
         // install Swiper modules
@@ -42,7 +43,7 @@ const VelcroSwiper = () => {
           },
           1700: {
             // width: 1700,
-            slidesPerView: 4,
+            slidesPerView: 3,
           },
         }}
         scrollbar={{ draggable: true }}
@@ -151,4 +152,4 @@ const VelcroSwiper = () => {
   )
 }
 
-export default VelcroSwiper
+export default Openable_Window_Swiper

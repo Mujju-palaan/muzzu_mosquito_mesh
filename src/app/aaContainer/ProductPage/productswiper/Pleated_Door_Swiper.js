@@ -11,7 +11,7 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/module
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
 import { delay } from "framer-motion";
 
-const OpenableSwiper = () => {
+const Pleated_Door_Swiper = () => {
   return (
     <Swiper 
         // install Swiper modules
@@ -152,4 +152,4 @@ const OpenableSwiper = () => {
   )
 }
 
-export default OpenableSwiper
+export default Pleated_Door_Swiper

@@ -11,7 +11,7 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/module
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
 import { delay } from "framer-motion";
 
-const UPVS = () => {
+const Pleated_Window_Swiper = () => {
   return (
     <Swiper 
         // install Swiper modules
@@ -152,4 +152,4 @@ const UPVS = () => {
   )
 }
 
-export default UPVS
+export default Pleated_Window_Swiper

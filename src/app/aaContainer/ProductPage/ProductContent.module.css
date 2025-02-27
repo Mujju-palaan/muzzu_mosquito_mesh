@@ -39,7 +39,7 @@
   }
   .maincontent {
     margin: 3rem;
-    padding: 0rem 26rem 0 20rem;
+    padding: 0rem 10rem;
     text-align: center;
   }
   .plpara {
@@ -108,7 +108,7 @@
       text-align: center;
     }
     .h2 {
-      font-size: 4rem;
+      font-size: 3rem;
       margin-bottom: 5rem;
       color: #1f5156;
     }
@@ -123,12 +123,12 @@
     }
     .maincontent {
       margin: 3rem;
-      padding: 4rem 14rem 0 14rem;
+      padding: 4rem 8rem;
       text-align: center;
     }
     .plpara {
       font-size: 18px;
-      padding-left: 4.5rem;
+      padding-left: 2.5rem;
       color: gray;
     }
   }

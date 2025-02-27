@@ -11,7 +11,7 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/module
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
 import { delay } from "framer-motion";
 
-const PleatedSwiper = () => {
+const UPVS_Window = () => {
   return (
     <Swiper 
         // install Swiper modules
@@ -43,7 +43,7 @@ const PleatedSwiper = () => {
           },
           1700: {
             // width: 1700,
-            slidesPerView: 3,
+            slidesPerView: 4,
           },
         }}
         scrollbar={{ draggable: true }}
@@ -152,4 +152,4 @@ const PleatedSwiper = () => {
   )
 }
 
-export default PleatedSwiper
+export default UPVS_Window
