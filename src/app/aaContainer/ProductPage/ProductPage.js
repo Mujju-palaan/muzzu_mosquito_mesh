@@ -4,9 +4,9 @@ import ProductSwiperCard from '../../../../components/product/ProductSwiperCard'
 const ProductPage = () => {
   return (
     <>
-      <ProductSwiperCard
+      {/* <ProductSwiperCard
         Images="./product_images/Blinds/Blinds4.jpg"
-      ></ProductSwiperCard>
+      ></ProductSwiperCard> */}
       <ProductContent></ProductContent>
     </>
   )

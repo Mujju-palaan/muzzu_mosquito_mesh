@@ -7,7 +7,9 @@ const Email = () => {
     <div className={styles.main}>
         <h1 style={{color:'#f5f6f9'}}>Get in Touch</h1>
         <div className={styles.icon}><MdEmail /></div>
-        <h2 style={{color:'#f5f6f9'}}>Support@muzzu_mesh.com</h2>
+        <h2 
+          style={{color:'#f5f6f9'}}>Support@muzzu_mesh.com
+        </h2> 
        
     </div>
   )
