@@ -10,6 +10,7 @@
     /* letter-spacing: 1px; */
     line-height: 34px;
     margin-bottom: 30px;
+    padding-top: 0.2rem;
   }
   .circle {
     align-items: center;
@@ -45,6 +46,16 @@
   .plpara {
     padding-left: 4.5rem;
     color: gray;
+    font-size: smaller;
+  }
+  .plpara_key{
+    color: #437175;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .swiperr{
+    margin-top: 2rem;
+    margin-left: 2rem;
   }
   
   @media screen and (min-width: 320px)  {
@@ -65,13 +76,15 @@
       padding: 0rem;
     }
     .heading {
-      font-size: 2rem;
+      font-size: 1rem;
+      font-weight: 700;
       letter-spacing: 1px;
       margin-bottom: 0;
     }
     .plpara {
       font-size: 14px;
       padding-left: 0rem;
+      
     }
   }
   
@@ -83,6 +96,7 @@
       letter-spacing: 1px;
       line-height: 34px;
       margin-bottom: 30px;
+
     }
     .h3 {
       font-size: 3rem;
@@ -93,11 +107,14 @@
       padding: 0rem;
     }
     .heading {
-      font-size: 3rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      /* padding-top: 0.2rem; */
     }
     .plpara {
-      font-size: 18px;
-      padding-left: 0rem;
+      font-size: 1rem;
+      padding-top: 0.6rem;
+      padding-left: 2.5rem;
     }
   }
   
@@ -111,6 +128,7 @@
       font-size: 3rem;
       margin-bottom: 5rem;
       color: #1f5156;
+
     }
     .circle {
       font-size: 2rem;
@@ -120,6 +138,8 @@
     .heading {
       font-size: 2.5rem;
       margin-bottom: 10px;
+      padding-top: 0.2rem;
+
     }
     .maincontent {
       margin: 3rem;
@@ -127,8 +147,8 @@
       text-align: center;
     }
     .plpara {
-      font-size: 18px;
-      padding-left: 2.5rem;
+      font-size: 1rem;
+      padding-left: 3rem;
       color: gray;
     }
   }
