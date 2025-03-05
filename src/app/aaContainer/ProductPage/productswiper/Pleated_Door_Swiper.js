@@ -128,7 +128,7 @@ const Pleated_Door_Swiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Pleated Sliding Door"
-                Images="./product_images/Pleated Sliding Doors/Pleated Sliding Doors7.jpg"
+                Images="./product_images/Pleated Sliding Doors/Pleated Sliding Doors7.jpeg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide>
@@ -144,7 +144,7 @@ const Pleated_Door_Swiper = () => {
         <SwiperSlide>
             <ProductSwiperCard 
                 title="Velcro Mosquito Net"
-                Images="./product_images/Pleated Sliding Doors/Pleated Sliding Doors9.jpeg"
+                Images="./product_images/Pleated Sliding Doors/Pleated Sliding Doors9.jpg"
                 // link="WeightLossPrograms"
             />
         </SwiperSlide> 

@@ -9,8 +9,8 @@ import Openable_Window_Swiper from './productswiper/Openable_Window_Swiper'
 import Pleated_Door_Swiper from './productswiper/Pleated_Door_Swiper'
 import Pleated_Window_Swiper from './productswiper/Pleated_Window_Swiper'
 import VelcroSwiper from './productswiper/VelcroSwiper'
-import UPVS_Door from "./productswiper/UPVS_Door";
-import UPVS_Window from './productswiper/UPVS_Window'
+import UPVC_Door from "./productswiper/UPVC_Door";
+import UPVC_Window from './productswiper/UPVC_Window'
 import Grill_Door from './productswiper/Grilldoor'
 
 
@@ -35,14 +35,13 @@ const ProductContent = () => {
             </div>
           </h2>
           <p className={styles.plpara}>
-            Why Choose Velcro Mosquito Nets?
-
-            ✅ Easy to Install & Remove: No tools, no hassle! Our Velcro mosquito nets can be effortlessly attached and detached, making them ideal for any space.
-            ✅ Perfect Fit for Every Window/Door: Custom-designed to fit your windows, doors, or even balconies, ensuring complete protection without gaps.
-            ✅ Durable & Breathable: Made from high-quality materials, our nets are strong, long-lasting, and allow fresh air to flow freely.
-            ✅ Eco-Friendly & Safe: Ditch the harmful chemicals and sprays. Our nets provide a non-toxic, eco-friendly way to keep mosquitoes at
-            [25/02/25, 10:18:40 PM] Muddasir Pro Player: ✅ Stylish & Minimalistic: Designed to blend seamlessly with your home decor, our Velcro nets add a touch of elegance while keeping your space safe.
-
+            Keep your home mosquito-free with Velcro mosquito nets, a convenient and cost-effective solution for blocking insects while allowing fresh air to circulate. Designed for easy installation and long-lasting durability, these nets provide seamless protection without compromising ventilation or visibility.
+            
+            Key Features:
+            ✔ Strong & Durable Material – Made from high-quality mesh fabric, ensuring maximum airflow while effectively keeping mosquitoes and pests out.
+            ✔ Easy DIY Installation & Removal – The Velcro attachment system allows for quick and tool-free setup, making it easy to remove and clean whenever needed.
+            ✔ Customizable & Versatile Fit – Suitable for windows, doors, and balconies, available in multiple sizes to fit different openings perfectly.
+            ✔ Washable & Low Maintenance – Designed for long-term use, these mosquito nets are easy to clean and maintain, providing hygienic and reliable protection.           
           </p>
           <div style={{marginLeft:'2rem'}}>
           <VelcroSwiper></VelcroSwiper>
@@ -54,17 +53,15 @@ const ProductContent = () => {
         <div style={{ textAlign: "left", paddingBottom:'2rem' }}>
           <h2>
             <span className={styles.circle}>2</span>{" "}
-            <span className={styles.heading}>Blinds:</span>
+            <span className={styles.heading}>Blinds :</span>
           </h2>
           <p className={styles.plpara}>
-            Why Choose Blinds Mosquito Nets?
-
-            ✨ Dual Functionality: Not just a mosquito net – it’s a blind too! Enjoy complete protection from mosquitoes while controlling light and privacy with ease.
-            ✨ Sleek & Modern Design: Our nets are designed to complement your home’s aesthetics, adding a touch of sophistication to any room.
-            ✨ Easy to Operate: Effortlessly roll up or down with a smooth mechanism, making them convenient for daily use.
-            ✨ Durable & Breathable: Crafted from high-quality materials, our nets are built to last and allow fresh air to circulate freely.
-            ✨ Custom Fit: Tailored to fit your windows or doors perfectly, ensuring no gaps for mosquitoes to sneak through.
-
+            Blinds are an ideal choice for those looking to enhance their space with both elegance and practicality. Designed for effortless light and privacy control, they offer a sleek, modern aesthetic while ensuring a comfortable indoor environment.
+            Features:
+            ✔ Versatile Designs: Available in premium materials like durable aluminum and elegant wood, perfectly complementing any décor.
+            ✔ Light & Privacy Control: Easily adjust brightness while maintaining privacy for a cozy, stylish ambiance.
+            ✔ Dust & Sun Protection: Acts as a shield against dust and harsh sunlight, keeping your space fresh and inviting.
+            Protect your home effortlessly with “Our Mosquito Mesh Blinds”—where simplicity meets safety!
           </p>
 
           <div style={{marginLeft:'2rem'}}>
@@ -80,13 +77,13 @@ const ProductContent = () => {
             <span className={styles.heading}>PLEATED SLIDING DOORS :</span>
           </h2>
           <p className={styles.plpara}>
-            Why Choose Pleated Sliding Doors and Windows?
-
-            🌟 Space-Saving Design: Perfect for modern homes, our pleated sliding systems fold neatly, saving space while maximizing airflow and natural light.
-            🌟 Sleek & Stylish: Add a touch of contemporary elegance to your home with our aesthetically pleasing designs that blend effortlessly with any decor.
-            🌟 Smooth Operation: Engineered for ease, our sliding doors and windows glide effortlessly, making them a joy to use every day.
-            🌟 Durable & Weather-Resistant: Built to withstand the elements, our pleated sliding systems are crafted from high-quality materials for long-lasting performance.
-            🌟 Customizable Fit: Tailored to your exact specifications, ensuring a perfect fit for your doors, windows, or even large openings like patios and balconies.
+            Upgrade your home with sleek and functional pleated sliding doors, designed for smooth operation, space efficiency, and superior insect protection. These modern doors provide a perfect blend of elegance and practicality, making them an ideal choice for any living space.
+            
+            Key Features:
+            ✔ Durable & High-Quality Materials – Crafted with premium alloy 304 stainless steel and extruded aluminum corners, ensuring long-lasting strength and corrosion resistance.
+            ✔ Smooth & Space-Saving Design – The foldable pleated mesh system allows for effortless sliding, making it perfect for compact areas while maintaining maximum airflow.
+            ✔ Superior Insect Protection – Effectively blocks mosquitoes and other pests, keeping your home comfortable and bug-free.
+            ✔ Easy Installation & Low Maintenance – Our expert team provides seamless installation, ensuring a perfect fit with minimal upkeep required.
 
           </p>
           <div style={{marginLeft:'2rem'}}>
@@ -101,14 +98,13 @@ const ProductContent = () => {
             <span className={styles.heading}>PLEATED SLIDING WINDOWS:</span>
           </h2>
           <p className={styles.plpara}>
-            Why Choose Pleated Sliding Doors and Windows?
+            Enhance your home with sleek and functional pleated sliding windows, designed for smooth operation, optimal ventilation, and superior insect protection. These modern windows offer a perfect combination of style, durability, and practicality, making them ideal for any living or workspace.
 
-            🌟 Space-Saving Design: Perfect for modern homes, our pleated sliding systems fold neatly, saving space while maximizing airflow and natural light.
-            🌟 Sleek & Stylish: Add a touch of contemporary elegance to your home with our aesthetically pleasing designs that blend effortlessly with any decor.
-            🌟 Smooth Operation: Engineered for ease, our sliding doors and windows glide effortlessly, making them a joy to use every day.
-            🌟 Durable & Weather-Resistant: Built to withstand the elements, our pleated sliding systems are crafted from high-quality materials for long-lasting performance.
-            🌟 Customizable Fit: Tailored to your exact specifications, ensuring a perfect fit for your doors, windows, or even large openings like patios and balconies.
-
+            Key Features:
+            ✔ Premium-Quality Construction – Made with alloy 304 stainless steel and extruded aluminum corners, ensuring long-lasting strength, corrosion resistance, and durability.
+            ✔ Effortless Sliding & Space-Saving Design – The foldable pleated mesh system allows for smooth operation, making it ideal for compact spaces without compromising airflow.
+            ✔ Effective Insect Protection – Blocks mosquitoes and pests while allowing fresh air and natural light to flow into your home.
+            ✔ Easy Installation & Low Maintenance – Our expert team ensures quick and precise installation, delivering a perfect fit with minimal upkeep.
           </p>
           <div style={{marginLeft:'2rem'}}>
             <Pleated_Window_Swiper></Pleated_Window_Swiper>
@@ -125,15 +121,12 @@ const ProductContent = () => {
             </div>
           </h2>
           <p className={styles.plpara}>
-            Why Choose Invisible Grills?
+            A grill door with mesh is the perfect combination of security, ventilation, and protection against insects. Designed to enhance your home’s safety while allowing fresh air to circulate, it adds both functionality and aesthetic appeal to any space.
 
-            🔒 Maximum Safety, Minimum Visibility: Made from high-tensile steel cables, our grills offer superior strength and protection without obstructing your view.
-            🌄 Uninterrupted Views: Keep your vistas clear and your spaces open, whether it’s a stunning cityscape, a lush garden, or a serene balcony.
-            ✨ Sleek & Modern Design: Enhance the beauty of your home with a minimalist, almost invisible solution that blends seamlessly with your architecture.
-            🌧️ Weather-Resistant & Durable: Built to withstand harsh weather conditions, our grills are rust-proof and long-lasting, ensuring years of reliable performance.
-            🛠️ Customizable Solutions: Tailored to fit your windows, balconies, or terraces perfectly, providing a secure and stylish solution for every space.
-            Safety Meets Elegance
-            Invisible grills are more than just a security feature – they’re a lifestyle upgrade. Whether you’re safeguarding your children, pets, or simply enhancing your home’s aesthetic, our grills offer peace of mind without compromising on style.
+            Key Features:
+            ✔ Strong & Durable Build: Made from high-quality materials, our grill doors provide superior strength and long-lasting security without compromising style.
+            ✔ Insect Protection & Ventilation: The fine mesh ensures proper airflow while keeping mosquitoes and other pests out, maintaining a healthy indoor environment.
+            As a leading provider of mosquito mesh solutions, we guarantee premium quality products that offer maximum protection and durability for your home. Upgrade to a secure and pest-free space today!
 
           </p>
 
@@ -154,16 +147,13 @@ const ProductContent = () => {
             </div>
           </h2>
           <p className={styles.plpara}>
-            Why Choose Invisible Grills?
-
-            🔒 Maximum Safety, Minimum Visibility: Made from high-tensile steel cables, our grills offer superior strength and protection without obstructing your view.
-            🌄 Uninterrupted Views: Keep your vistas clear and your spaces open, whether it’s a stunning cityscape, a lush garden, or a serene balcony.
-            ✨ Sleek & Modern Design: Enhance the beauty of your home with a minimalist, almost invisible solution that blends seamlessly with your architecture.
-            🌧️ Weather-Resistant & Durable: Built to withstand harsh weather conditions, our grills are rust-proof and long-lasting, ensuring years of reliable performance.
-            🛠️ Customizable Solutions: Tailored to fit your windows, balconies, or terraces perfectly, providing a secure and stylish solution for every space.
-            Safety Meets Elegance
-            Invisible grills are more than just a security feature – they’re a lifestyle upgrade. Whether you’re safeguarding your children, pets, or simply enhancing your home’s aesthetic, our grills offer peace of mind without compromising on style.
-
+            Apartment living comes with its challenges, and safety is a top priority—especially for families with young children. Whether you live on the second floor or the thirty-first, securing your balcony is essential. Invisible Grills provide a durable, cost-effective, and aesthetically pleasing solution to keep your home safe without compromising your view.
+            
+            Key Features:
+            ✔ High-Quality Material: Made from grade 316 austenitic stainless steel with enhanced corrosion resistance and a protective nylon coating, ensuring superior durability and strength.
+            ✔ Unobstructed Views: Designed to maintain a clear, elegant aesthetic, allowing you to enjoy your balcony’s scenic beauty without visual obstruction.
+            ✔ Customizable Installation: Available in 2”, 3”, and 4” cable distances, with flexible vertical or horizontal installation to suit your space and preferences.
+            ✔ Child & Pet Safety: Provides a secure barrier to prevent accidental falls, ensuring a safe environment for your loved ones.
           </p>
 
           <div style={{marginLeft:'2rem'}}>
@@ -183,15 +173,13 @@ const ProductContent = () => {
             </div>
           </h2>
           <p className={styles.plpara}>
-            Why Choose Our Cloth Hangers?
+            A cloth hanger is an essential addition to any home, offering a stylish and practical solution for keeping clothes wrinkle-free and well-organized. Designed for durability and convenience, it helps maximize space while maintaining the elegance of your wardrobe.
 
-            ✨ Space-Saving Design: Slim and lightweight, our hangers maximize closet space, giving you more room for your favorite outfits.
-            👗 Gentle on Clothes: Say goodbye to shoulder bumps and wrinkles! Our hangers are crafted to protect your garments, keeping them in perfect shape.
-            💪 Durable & Sturdy: Made from high-quality materials, our hangers are built to last, supporting even your heaviest coats and dresses with ease.
-            🎨 Sleek & Stylish: Available in a variety of designs and finishes, our hangers add a touch of sophistication to your closet.
-            🌿 Eco-Friendly Options: Choose from sustainable materials that are kind to the planet without compromising on quality.
-            Elevate Your Wardrobe Experience
-            A well-organized closet starts with the right hangers. Whether you’re storing delicate silks, bulky coats, or everyday wear, our cloth hangers are designed to meet all your needs. Transform your closet into a tidy, stylish space that makes getting dressed a joy!
+            Key Features:
+            ✔ Space-Saving & Sturdy Design: Made from high-quality materials, our cloth hangers provide strong support while optimizing closet space for a clutter-free environment.
+            ✔ Anti-Slip & Gentle on Fabrics: Designed to prevent clothes from slipping or getting damaged, ensuring your garments stay in perfect shape.
+            As a trusted provider of mosquito mesh solutions, we also ensure top-quality home essentials that combine protection, style, and long-lasting durability. Upgrade your home with our premium products today!
+            d closet starts with the right hangers. Whether you’re storing delicate silks, bulky coats, or everyday wear, our cloth hangers are designed to meet all your needs. Transform your closet into a tidy, stylish space that makes getting dressed a joy!
 
           </p>
 
@@ -212,16 +200,14 @@ const ProductContent = () => {
             </div>
           </h2>
           <p className={styles.plpara}>
-            Why Choose Openable Doors and Windows?
+            Enhance your home’s functionality and aesthetics with high-quality openable doors designed for durability, convenience, and modern appeal. Whether for residential or commercial spaces, these doors provide seamless operation, optimal ventilation, and enhanced security while complementing any interior or exterior design.
 
-            🌬️ Maximize Airflow: Our doors and windows are designed to open wide, allowing fresh air to circulate freely and keeping your space cool and comfortable.
-            🌄 Uninterrupted Views: Enjoy stunning vistas with minimal obstruction, creating a seamless connection between your indoor and outdoor spaces.
-            ✨ Sleek & Modern Design: Add a touch of sophistication to your home with our contemporary designs that complement any architectural style.
-            🔒 Secure & Durable: Built with high-quality materials and advanced locking mechanisms, our doors and windows provide safety without compromising on aesthetics.
-            🛠️ Customizable Options: Tailored to fit your unique needs, our openable systems are available in a variety of sizes, styles, and finishes.
-            The Perfect Blend of Form and Function
+            Key Features:
+            ✔ Premium-Quality Material: Crafted from robust aluminum or stainless steel for long-lasting durability and resistance to wear and tear.
+            ✔ Smooth & Effortless Operation: Designed with advanced hinge mechanisms for easy opening and closing, ensuring maximum convenience.
+            ✔ Versatile Design Options: Available in multiple styles, finishes, and sizes to perfectly match your space and aesthetic preferences.
+            ✔ Enhanced Security & Ventilation: Provides proper airflow while keeping your home safe, offering a blend of style and protection.
 
-            Openable doors and windows are more than just a practical addition – they’re a lifestyle upgrade. Whether it’s a folding door for your patio, a sliding window for your living room, or a casement window for your bedroom, our solutions are designed to enhance your home’s beauty and functionality.
           </p>
 
           <div style={{marginLeft:'2rem'}}>
@@ -241,16 +227,14 @@ const ProductContent = () => {
             </div>
           </h2>
           <p className={styles.plpara}>
-            Why Choose Openable Doors and Windows?
+            Upgrade your home or office with premium openable windows, designed for maximum airflow, security, and aesthetic appeal. These windows offer a seamless blend of functionality and modern design, making them an ideal choice for any space.
 
-            🌬️ Maximize Airflow: Our doors and windows are designed to open wide, allowing fresh air to circulate freely and keeping your space cool and comfortable.
-            🌄 Uninterrupted Views: Enjoy stunning vistas with minimal obstruction, creating a seamless connection between your indoor and outdoor spaces.
-            ✨ Sleek & Modern Design: Add a touch of sophistication to your home with our contemporary designs that complement any architectural style.
-            🔒 Secure & Durable: Built with high-quality materials and advanced locking mechanisms, our doors and windows provide safety without compromising on aesthetics.
-            🛠️ Customizable Options: Tailored to fit your unique needs, our openable systems are available in a variety of sizes, styles, and finishes.
-            The Perfect Blend of Form and Function
+            Key Features:
+            ✔ Superior Durability: Made from high-quality aluminum or stainless steel, ensuring long-lasting strength and weather resistance.
+            ✔ Smooth & Easy Operation: Designed with advanced hinge mechanisms for effortless opening and closing, providing convenience and comfort.
+            ✔ Optimal Ventilation & Light Control: Enjoy fresh air and natural light while maintaining security and energy efficiency.
+            ✔ Customizable Designs: Available in various sizes, styles, and finishes to perfectly complement your home’s architecture.
 
-            Openable doors and windows are more than just a practical addition – they’re a lifestyle upgrade. Whether it’s a folding door for your patio, a sliding window for your living room, or a casement window for your bedroom, our solutions are designed to enhance your home’s beauty and functionality.
           </p>
 
           <div style={{marginLeft:'2rem'}}>
@@ -264,24 +248,23 @@ const ProductContent = () => {
             <div style={{ display: "flex" }}>
               <div className={styles.circle}>10</div>{" "}
               <div className={styles.heading}>
-              UPVS DOORS:
+              UPVC DOORS:
               </div>
             </div>
           </h2>
           <p className={styles.plpara}>
-            Why Choose UPVC Mosquito Doors and Windows?
+            Upgrade your home with high-quality UPVC doors, designed for superior durability, security, and energy efficiency. These modern doors offer a sleek, weather-resistant, and low-maintenance solution, perfect for both residential and commercial spaces.
 
-            🦟 Total Mosquito Protection: Our tightly fitted mesh screens keep mosquitoes and other insects out, ensuring a safe and healthy environment for your family.
-            🌬️ Uninterrupted Ventilation: Enjoy the cool breeze and fresh air without worrying about pests – our designs allow maximum airflow while keeping bugs at bay.
-            ✨ Sleek & Modern Aesthetics: UPVC frames add a touch of elegance to your home, blending seamlessly with any decor style.
-            💪 Durable & Low-Maintenance: Built to last, UPVC is resistant to weathering, corrosion, and wear, making it a cost-effective and long-lasting choice.
-            🔒 Secure & Energy-Efficient: Our doors and windows come with advanced locking systems and excellent insulation properties, keeping your home safe and energy-efficient
-            The Perfect Blend of Safety and Style
-            UPVC mosquito doors and windows are more than just a practical solution – they’re a lifestyle upgrade. Whether it’s for your home, office, or commercial space, our products provide the perfect balance of protection, comfort, and visual appeal.
+            Key Features:
+            ✔ Long-Lasting & Weather-Resistant – Made from premium UPVC material, these doors are waterproof, termite-proof, and resistant to corrosion, fading, and warping.
+            ✔ Energy-Efficient & Soundproof – Designed with thermal insulation properties, UPVC doors help reduce energy costs while minimizing outside noise for a peaceful indoor environment.
+            ✔ Secure & Low Maintenance – Equipped with multi-point locking systems, these doors provide enhanced security with minimal upkeep required.
+            ✔ Customizable Designs – Available in various styles, colors, and finishes, ensuring a perfect match for your home’s aesthetics.
+
           </p>
 
           <div style={{marginLeft:'2rem'}}>
-            <UPVS_Door></UPVS_Door>
+            <UPVC_Door></UPVC_Door>
           </div>  
         </div>
 
@@ -291,24 +274,23 @@ const ProductContent = () => {
             <div style={{ display: "flex" }}>
               <div className={styles.circle}>11</div>{" "}
               <div className={styles.heading}>
-              UPVS WINDOWS:
+              UPVC WINDOWS:
               </div>
             </div>
           </h2>
           <p className={styles.plpara}>
-            Why Choose UPVC Mosquito Doors and Windows?
+            Upgrade your home with high-quality UPVC windows, designed for superior insulation, durability, and modern aesthetics. These windows offer exceptional weather resistance, security, and energy efficiency, making them a perfect choice for any residential or commercial space.
 
-            🦟 Total Mosquito Protection: Our tightly fitted mesh screens keep mosquitoes and other insects out, ensuring a safe and healthy environment for your family.
-            🌬️ Uninterrupted Ventilation: Enjoy the cool breeze and fresh air without worrying about pests – our designs allow maximum airflow while keeping bugs at bay.
-            ✨ Sleek & Modern Aesthetics: UPVC frames add a touch of elegance to your home, blending seamlessly with any decor style.
-            💪 Durable & Low-Maintenance: Built to last, UPVC is resistant to weathering, corrosion, and wear, making it a cost-effective and long-lasting choice.
-            🔒 Secure & Energy-Efficient: Our doors and windows come with advanced locking systems and excellent insulation properties, keeping your home safe and energy-efficient
-            The Perfect Blend of Safety and Style
-            UPVC mosquito doors and windows are more than just a practical solution – they’re a lifestyle upgrade. Whether it’s for your home, office, or commercial space, our products provide the perfect balance of protection, comfort, and visual appeal.
+            Key Features:
+            ✔ Weather-Resistant & Long-Lasting – Made from premium UPVC material, these windows are waterproof, rust-proof, and resistant to fading, warping, and termites, ensuring long-term durability.
+            ✔ Energy Efficiency & Sound Insulation – UPVC windows provide excellent thermal insulation, reducing energy costs while keeping your indoor space comfortable in all seasons. They also offer effective noise reduction for a peaceful environment.
+            ✔ Low Maintenance & Secure – With multi-point locking systems, these windows enhance security, while their smooth surface requires minimal upkeep compared to traditional window materials.
+            ✔ Customizable Designs & Styles – Available in various sizes, finishes, and styles, ensuring a perfect fit for your home’s architecture while enhancing its aesthetic appeal.
+
           </p>
 
           <div style={{marginLeft:'2rem'}}>
-            <UPVS_Window></UPVS_Window>
+            <UPVC_Window></UPVC_Window>
           </div>  
         </div>
 
