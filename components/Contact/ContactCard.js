@@ -21,7 +21,7 @@ const ContactCard = () => {
             <p className={styles.last_para}>Weekends: 9 AM — 5 PM IST </p>
             <Link
               style={{color:'blue'}}
-              href="//api.whatsapp.com/send?phone=918712219195 &text=Hi"
+              href="//api.whatsapp.com/send?phone=917093050808 &text=Hi"
             >
               {" "}
               Chat Now <span>--&gt;</span>
@@ -39,7 +39,7 @@ const ContactCard = () => {
             <p className={styles.last_para}>response time: If available </p>
             <Link 
                 style={{color:'blue'}}
-                href="/" className={styles.anchorLink}>
+                href="tel:+917093050808" className={styles.anchorLink}>
               {" "}
               Call Now <span>--&gt;</span>
             </Link>
@@ -57,7 +57,7 @@ const ContactCard = () => {
             <p className={styles.last_para}>response time: 12 - 24 hours </p>
             <Link 
                 style={{color:'blue'}}
-                href="mailto:max.support@sehatdiets.com?body=My custom mail body">
+                href="mailto:ourmosquitomesh@gmail.com?body=My custom mail body">
               {" "}
               Send Email <span>--&gt;</span>
             </Link>
