@@ -144,7 +144,7 @@ const SwiperPlan = () => {
 
         <SwiperSlide>
             <HomePlansCard 
-                title="UPVS Door"
+                title="UPVC Door"
                 Images="./product_images/UPVC Doors/UPVC Doors3.jpg"
                 // link="WeightLossPrograms"
             />
@@ -152,7 +152,7 @@ const SwiperPlan = () => {
 
         <SwiperSlide>
             <HomePlansCard 
-                title="UPVS Window"
+                title="UPVC Window"
                 Images="./product_images/UPVC Windows/UPVC Windows5.jpg"
 
                 // link="WeightLossPrograms"
