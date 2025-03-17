@@ -10,6 +10,8 @@ import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
 import { delay } from "framer-motion";
+import Openable_Doors from '../../../Data/product/Openable_Door_Swiper.json'
+
 
 const Openable_Door_Swiper = () => {
   return (
@@ -48,9 +50,9 @@ const Openable_Door_Swiper = () => {
         }}
         scrollbar={{ draggable: true }}
           autoplay={{
-            delay: 2000,
+            delay: 1200,
             disableOnInteraction: false,
-            pauseOnMouseEnter: true,
+            pauseOnMouseEnter: false,
           }}
           spaceBetween={0}
           style={{ overflow: "hidden"}}
@@ -77,77 +79,21 @@ const Openable_Door_Swiper = () => {
           className="swiper_container"
         >
       
-        <SwiperSlide style={{paddingBottom:'1rem'}}>
-            <ProductSwiperCard 
-                title="Blinds"
-                Images="./product_images/Openable Doors/Openable Doors1.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
+      {/* ------------ Openable_Doors ---------------- */}
+      {
+        Openable_Doors.map( data => {
+          return(
+            <SwiperSlide key={data.id}>
+              <ProductSwiperCard 
+                // key={data.id}
+                Images={data.Image}
+              />
+            </SwiperSlide>
+          )
+        })
+      }
+      {/* ------------ Openable_Doors ---------------- */}
 
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Cloth Hanger"
-                Images="./product_images/Openable Doors/Openable Doors2.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Grill Door Mesh"
-                Images="./product_images/Openable Doors/Openable Doors3.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Invisible Grill"
-                Images="./product_images/Openable Doors/Openable Doors4.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Door"
-                Images="./product_images/Openable Doors/Openable Doors5.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Window"
-                Images="./product_images/Openable Doors/Openable Doors6.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Door"
-                Images="./product_images/Openable Doors/Openable Doors7.jpeg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Window"
-                Images="./product_images/Openable Doors/Openable Doors8.jpeg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Velcro Mosquito Net"
-                Images="./product_images/Openable Doors/Openable Doors9.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>  
     </Swiper>
   )
 }

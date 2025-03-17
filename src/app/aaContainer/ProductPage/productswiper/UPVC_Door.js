@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
+import UPVC_Doors from '../../../Data/product/UPVC_Door.json'
 
 const UPVC_Door = () => {
   return (
@@ -47,9 +48,9 @@ const UPVC_Door = () => {
         }}
         scrollbar={{ draggable: true }}
           autoplay={{
-            delay: 2000,
+            delay: 1200,
             disableOnInteraction: false,
-            pauseOnMouseEnter: true,
+            pauseOnMouseEnter: false,
           }}
           spaceBetween={0}
           style={{ overflow: "hidden"}}
@@ -76,54 +77,20 @@ const UPVC_Door = () => {
           className="swiper_container"
         >
       
-        <SwiperSlide style={{paddingBottom:'1rem'}}>
-            <ProductSwiperCard 
-                title="Blinds"
-                Images="./product_images/UPVC Doors/UPVC Doors1.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Cloth Hanger"
-                Images="./product_images/UPVC Doors/UPVC Doors2.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Grill Door Mesh"
-                Images="./product_images/UPVC Doors/UPVC Doors3.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Invisible Grill"
-                Images="./product_images/UPVC Doors/UPVC Doors4.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Door"
-                Images="./product_images/UPVC Doors/UPVC Doors5.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Window"
-                Images="./product_images/UPVC Doors/UPVC Doors6.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
+      {/* ------------ UPVC_Doors ---------------- */}
+      {
+        UPVC_Doors.map( data => {
+          return(
+            <SwiperSlide key={data.id}>
+              <ProductSwiperCard 
+                // key={data.id}
+                Images={data.Image}
+              />
+            </SwiperSlide>
+          )
+        })
+      }
+      {/* ------------ UPVC_Doors ---------------- */}
         
     </Swiper>
   )

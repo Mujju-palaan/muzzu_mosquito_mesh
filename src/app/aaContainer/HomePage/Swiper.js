@@ -10,6 +10,7 @@ import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import HomePlansCard from '../../../../components/card/HomePlansCard'
 import { delay } from "framer-motion";
+import HomeProducts from './HomeProducts.json'
 
 
 const SwiperPlan = () => {
@@ -78,94 +79,22 @@ const SwiperPlan = () => {
           className="swiper_container"
         >
       
-        <SwiperSlide style={{paddingBottom:'1rem'}}>
-            <HomePlansCard 
-                title="Blinds"
-                Images="./product_images/Blinds/Blinds3.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
+      {/* ------------ HOME PAGE products ---------------- */}
+      {
+        HomeProducts.map( data => {
+          return(
+            <SwiperSlide key={data.id}>
+              <HomePlansCard 
+                // key={data.id}
+                Images={data.Image}
+                title={data.title}
+              />
+            </SwiperSlide>
+          )
+        })
+      }
+      {/* ------------ HOME PAGE products ---------------- */}
 
-        <SwiperSlide>
-            <HomePlansCard 
-                title="Cloth Hanger"
-                Images="./product_images/Cloth Hanger/Cloth Hanger1.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <HomePlansCard 
-                title="Grill Door Mesh"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh2.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <HomePlansCard 
-                title="Invisible Grill"
-                Images="./product_images/Invisible Grill/Invisible Grill2.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <HomePlansCard 
-                title="Openable Door"
-                Images="./product_images/Openable Doors/Openable Doors1.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <HomePlansCard 
-                title="Openable Window"
-                Images="./product_images/Openable Windows/Openable Windows10.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <HomePlansCard 
-                title="Pleated Sliding Door"
-                Images="./product_images/Pleated Sliding Doors/Pleated Sliding Doors6.jpeg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <HomePlansCard 
-                title="Pleated Sliding Window"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows2.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <HomePlansCard 
-                title="UPVC Door"
-                Images="./product_images/UPVC Doors/UPVC Doors3.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide> 
-
-        <SwiperSlide>
-            <HomePlansCard 
-                title="UPVC Window"
-                Images="./product_images/UPVC Windows/UPVC Windows5.jpg"
-
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide> 
-
-        <SwiperSlide>
-            <HomePlansCard 
-                title="Velcro Mosquito Net"
-                Images="./product_images/Velcro Mosquito Net/Velcro Mosquito Net6.jpeg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>  
     </Swiper>
   );
 };

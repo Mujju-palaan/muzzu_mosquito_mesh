@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "Image":"./product_images/Pleated Sliding Windows/Pleated Sliding Windows1.jpg"
+    },
+    {
+        "id":2,
+        "Image":"./product_images/Pleated Sliding Windows/Pleated Sliding Windows2.jpg"
+    },
+    {
+        "id":3,
+        "Image":"./product_images/Pleated Sliding Windows/Pleated Sliding Windows3.webp"
+    },
+    {
+        "id":4,
+        "Image":"./product_images/Pleated Sliding Windows/Pleated Sliding Windows4.webp"
+    },
+    {
+        "id":5,
+        "Image":"./product_images/Pleated Sliding Windows/Pleated Sliding Windows5.webp"
+    },
+    {
+        "id":6,
+        "Image":"./product_images/Pleated Sliding Windows/Pleated Sliding Windows6.jpg"
+    },
+    {
+        "id":7,
+        "Image":"./product_images/Pleated Sliding Windows/Pleated Sliding Windows7.webp"
+    },
+    {
+        "id":8,
+        "Image":"./product_images/Pleated Sliding Windows/Pleated Sliding Windows8.jpg"
+    },
+    {
+        "id":9,
+        "Image":"./product_images/Pleated Sliding Windows/Pleated Sliding Windows9.webp"
+    }
+]

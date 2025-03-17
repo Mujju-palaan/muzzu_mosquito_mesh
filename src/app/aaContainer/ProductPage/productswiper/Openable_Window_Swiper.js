@@ -10,6 +10,7 @@ import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
 import { delay } from "framer-motion";
+import Openable_Windows from '../../../Data/product/Openable_Window_Swiper.json'
 
 const Openable_Window_Swiper = () => {
   return (
@@ -48,9 +49,9 @@ const Openable_Window_Swiper = () => {
         }}
         scrollbar={{ draggable: true }}
           autoplay={{
-            delay: 2000,
+            delay: 1200,
             disableOnInteraction: false,
-            pauseOnMouseEnter: true,
+            pauseOnMouseEnter: false,
           }}
           spaceBetween={0}
           style={{ overflow: "hidden"}}
@@ -76,86 +77,22 @@ const Openable_Window_Swiper = () => {
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           className="swiper_container"
         >
-      
-        <SwiperSlide style={{paddingBottom:'1rem'}}>
-            <ProductSwiperCard 
-                title="Blinds"
-                Images="./product_images/Openable Windows/Openable Windows1.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
 
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Cloth Hanger"
-                Images="./product_images/Openable Windows/Openable Windows2.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
+      {/* ------------ Openable_Windows ---------------- */}
+      {
+        Openable_Windows.map( data => {
+          return(
+            <SwiperSlide key={data.id}>
+              <ProductSwiperCard 
+                // key={data.id}
+                Images={data.Image}
+              />
+            </SwiperSlide>
+          )
+        })
+      }
+      {/* ------------ Openable_Windows ---------------- */}
 
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Grill Door Mesh"
-                Images="./product_images/Openable Windows/Openable Windows3.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Invisible Grill"
-                Images="./product_images/Openable Windows/Openable Windows4.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Door"
-                Images="./product_images/Openable Windows/Openable Windows5.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Window"
-                Images="./product_images/Openable Windows/Openable Windows6.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Door"
-                Images="./product_images/Openable Windows/Openable Windows7.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Window"
-                Images="./product_images/Openable Windows/Openable Windows8.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Velcro Mosquito Net"
-                Images="./product_images/Openable Windows/Openable Windows9.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>  
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Velcro Mosquito Net"
-                Images="./product_images/Openable Windows/Openable Windows10.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>  
     </Swiper>
   )
 }

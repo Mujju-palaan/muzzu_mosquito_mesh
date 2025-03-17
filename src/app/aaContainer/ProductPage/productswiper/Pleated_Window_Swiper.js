@@ -10,6 +10,7 @@ import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
 import { delay } from "framer-motion";
+import Pleated_Windows from '../../../Data/product/Pleated_Window_Swiper.json'
 
 const Pleated_Window_Swiper = () => {
   return (
@@ -77,77 +78,20 @@ const Pleated_Window_Swiper = () => {
           className="swiper_container"
         >
       
-        <SwiperSlide style={{paddingBottom:'1rem'}}>
-            <ProductSwiperCard 
-                title="Blinds"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows1.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Cloth Hanger"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows2.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Grill Door Mesh"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows3.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Invisible Grill"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows4.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Door"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows5.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Window"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows6.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Door"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows7.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Window"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows8.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Velcro Mosquito Net"
-                Images="./product_images/Pleated Sliding Windows/Pleated Sliding Windows9.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>  
+      {/* ------------ Pleated_Windows ---------------- */}
+      {
+        Pleated_Windows.map( data => {
+          return(
+            <SwiperSlide key={data.id}>
+              <ProductSwiperCard 
+                // key={data.id}
+                Images={data.Image}
+              />
+            </SwiperSlide>
+          )
+        })
+      }
+      {/* ------------ Pleated_Windows ---------------- */}
     </Swiper>
   )
 }

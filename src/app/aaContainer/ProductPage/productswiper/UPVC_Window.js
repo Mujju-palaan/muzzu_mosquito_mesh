@@ -10,6 +10,7 @@ import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
 import { delay } from "framer-motion";
+import UPVC_Windows from '../../../Data/product/UPVC_Window.json'
 
 const UPVC_Window = () => {
   return (
@@ -48,9 +49,9 @@ const UPVC_Window = () => {
         }}
         scrollbar={{ draggable: true }}
           autoplay={{
-            delay: 2000,
+            delay: 1200,
             disableOnInteraction: false,
-            pauseOnMouseEnter: true,
+            pauseOnMouseEnter: false,
           }}
           spaceBetween={0}
           style={{ overflow: "hidden"}}
@@ -77,46 +78,20 @@ const UPVC_Window = () => {
           className="swiper_container"
         >
       
-        <SwiperSlide style={{paddingBottom:'1rem'}}>
-            <ProductSwiperCard 
-                title="Blinds"
-                Images="./product_images/UPVC Windows/UPVC Windows1.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Cloth Hanger"
-                Images="./product_images/UPVC Windows/UPVC Windows2.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Grill Door Mesh"
-                Images="./product_images/UPVC Windows/UPVC Windows3.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Invisible Grill"
-                Images="./product_images/UPVC Windows/UPVC Windows4.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Door"
-                Images="./product_images/UPVC Windows/UPVC Windows5.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
+      {/* ------------ UPVC_Windows ---------------- */}
+      {
+        UPVC_Windows.map( data => {
+          return(
+            <SwiperSlide key={data.id}>
+              <ProductSwiperCard 
+                // key={data.id}
+                Images={data.Image}
+              />
+            </SwiperSlide>
+          )
+        })
+      }
+      {/* ------------ UPVC_Windows ---------------- */}
         
     </Swiper>
   )

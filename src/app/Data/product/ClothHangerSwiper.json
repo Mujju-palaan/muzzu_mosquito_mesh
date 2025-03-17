@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "Image":"./product_images/Cloth Hanger/Cloth Hanger1.webp"
+    },
+    {
+        "id":2,
+        "Image":"./product_images/Cloth Hanger/Cloth Hanger2.jpg"
+    },
+    {
+        "id":3,
+        "Image":"./product_images/Cloth Hanger/Cloth Hanger3.webp"
+    },
+    {
+        "id":4,
+        "Image":"./product_images/Cloth Hanger/Cloth Hanger4.webp"
+    },
+    {
+        "id":5,
+        "Image":"./product_images/Cloth Hanger/Cloth Hanger5.jpg"
+    },
+    {
+        "id":6,
+        "Image":"./product_images/Cloth Hanger/Cloth Hanger6.jpg"
+    },
+    {
+        "id":7,
+        "Image":"./product_images/Cloth Hanger/Cloth Hanger7.jpg"
+    },
+    {
+        "id":8,
+        "Image":"./product_images/Cloth Hanger/Cloth Hanger8.jpg"
+    },
+    {
+        "id":9,
+        "Image":"./product_images/Cloth Hanger/Cloth Hanger9.jpg"
+    }
+]

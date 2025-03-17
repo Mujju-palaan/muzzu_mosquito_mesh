@@ -10,6 +10,7 @@ import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import ProductSwiperCard from '../../../../../components/product/ProductSwiperCard'
 import { delay } from "framer-motion";
+import Grill_Doors from '../../../Data/product/Grilldoor.json'
 
 const Grill_Door = () => {
   return (
@@ -48,9 +49,9 @@ const Grill_Door = () => {
         }}
         scrollbar={{ draggable: true }}
           autoplay={{
-            delay: 2000,
+            delay: 1200,
             disableOnInteraction: false,
-            pauseOnMouseEnter: true,
+            pauseOnMouseEnter: false,
           }}
           spaceBetween={0}
           style={{ overflow: "hidden"}}
@@ -77,93 +78,21 @@ const Grill_Door = () => {
           className="swiper_container"
         >
       
-        <SwiperSlide style={{paddingBottom:'1rem'}}>
-            <ProductSwiperCard 
-                title="Blinds"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh1.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
+      {/* ------------ Grill_Doors ---------------- */}
+      {
+        Grill_Doors.map( data => {
+          return(
+            <SwiperSlide key={data.id}>
+              <ProductSwiperCard 
+                // key={data.id}
+                Images={data.Image}
+              />
+            </SwiperSlide>
+          )
+        })
+      }
+      {/* ------------ Grill_Doors ---------------- */}
 
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Cloth Hanger"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh2.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Grill Door Mesh"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh3.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Invisible Grill"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh4.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Door"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh5.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Openable Window"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh6.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Door"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh7.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Window"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh8.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Pleated Sliding Window"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh9.jpg"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <ProductSwiperCard 
-                title="Velcro Mosquito Net"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh10.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide> 
-
-        {/* <SwiperSlide>
-            <ProductSwiperCard 
-                title="Velcro Mosquito Net"
-                Images="./product_images/Grill Door With Mesh/Grill Door With Mesh11.webp"
-                // link="WeightLossPrograms"
-            />
-        </SwiperSlide>   */}
     </Swiper>
   )
 }

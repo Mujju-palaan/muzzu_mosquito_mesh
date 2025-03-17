@@ -24,7 +24,7 @@ function NavBarr() {
       <div className="navbar">
         <div className="nav-container">
           <Link href="/" className="nav-logo">
-            <span>Our Mosqiute Mesh</span>
+            <span>Our Mosquito Mesh</span>
             {/* <i className="fas fa-code"></i> */}
             <span className="icon">
               <CodeIcon />

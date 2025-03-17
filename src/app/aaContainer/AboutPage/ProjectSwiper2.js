@@ -11,7 +11,7 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/module
 import { delay } from "framer-motion";
 import './ProjectSwiper.css'
 import ProjectsCard from '../../../../components/projects/ProjectsCard'
-import ProjectData2 from '../../Data/ProjectData2.json'
+import ProjectData2 from '../../Data/project/ProjectData2.json'
 
 
 const Projects2 = () => {
@@ -84,7 +84,7 @@ const Projects2 = () => {
           {
             ProjectData2.map( data => {
               return(
-                <SwiperSlide >
+                <SwiperSlide key={data.id}>
                   <ProjectsCard 
                     Images={data.Image}
                   />

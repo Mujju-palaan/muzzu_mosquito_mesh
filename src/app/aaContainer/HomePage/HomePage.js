@@ -30,7 +30,7 @@ const HomePage = () => {
         <div className={styles.content_box}>
           <h1 className={styles.content_box_h1}
             style={{color:'#27772e', lineHeight:'1', position:'relative'}}>
-            Welcome To Mr. Mosquito
+            Welcome To Our Mosquito Mesh
           </h1>
           <h4 className='p-4' style={{fontSize:'1.5rem', color:'black', lineHeight:'1'}}
           >About Company</h4>
