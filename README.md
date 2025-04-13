@@ -1,4 +1,5 @@
-Website live on https://github.com/Mujju-palaan/postgres_projects.git
+Website live on https://mujju-palaan.github.io/muzzu_mosquito_mesh/
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
